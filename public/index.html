@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<title>SIT725 Prac-2</title>
+</head>
+
+<body>
+	<div class="center-align">
+		<div class="card-panel teal lighten-2">
+			<h4>Calculator</h4>
+		</div>
+
+		<div class="card-panel">
+			<form class="col s12" action="/answer" method="post">
+				<div class="input-field col s12">
+					<input id="equation" class="validate" value="" name="equation">
+				</div>
+
+				<div class="row">
+					<div class="col s12">
+						<a class="waves-effect waves-light btn">7</a>
+						<a class="waves-effect waves-light btn">8</a>
+						<a class="waves-effect waves-light btn">9</a>
+						<a class="waves-effect waves-light btn">/</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col s12">
+						<a class="waves-effect waves-light btn">4</a>
+						<a class="waves-effect waves-light btn">5</a>
+						<a class="waves-effect waves-light btn">6</a>
+						<a class="waves-effect waves-light btn">*</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col s12">
+						<a class="waves-effect waves-light btn">1</a>
+						<a class="waves-effect waves-light btn">2</a>
+						<a class="waves-effect waves-light btn">3</a>
+						<a class="waves-effect waves-light btn">-</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col s12">
+						<a class="waves-effect waves-light btn">0</a>
+						<a class="waves-effect waves-light btn">C</a>
+						<a class="waves-effect waves-light btn">=</a>
+						<a class="waves-effect waves-light btn">+</a>
+					</div>
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+	<script src="../app.js"></script>
+</body>
+
+</html>
